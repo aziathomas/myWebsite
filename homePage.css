@@ -1,0 +1,49 @@
+/* Define color scheme */
+:root {
+    --primary-color: rgb(81, 181, 232);
+    --text-color: #333;
+  }
+  /* Navigation bar styles */
+  .navbar {
+    background-color: var(--primary-color);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-box {
+    flex: 2;
+    border: 2px solid var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px
+}
+.text-box p {
+    font-size: 16px;
+}
